@@ -29,3 +29,12 @@ li a{
 li a:hover {
 	background-color: #7303fc;
 }
+#git {
+	font-weight:bold;
+	font-size:125%;
+	color: #f542d4;
+	text-decoration:none;
+}
+#git:hover{
+	color:#e81e1e;
+}
