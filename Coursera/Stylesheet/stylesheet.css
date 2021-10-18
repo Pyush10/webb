@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding: 0px;
+}
+nav {
+	border: 1px black solid;
+	top: 0px;
+}
+ul#nav {
+	list-style-type:none;
+	position:sticky;
+    position: -webkit-sticky;
+    top:1px;
+    width: 100%;
+}
+
+li a{
+	background-color: teal;
+	display: block;
+	color:white;
+	text-decoration: none;
+	text-align:center;
+	padding: 8px;
+
+}
+ 
+li a:hover {
+	background-color: #7303fc;
+}
