@@ -1,0 +1,63 @@
+*{
+	font-family: Arial,Helvetica,sans-serif;
+	box-sizing: content-box;
+}
+body{
+	background-color: #f4cafc;
+}
+section{
+	display: block;
+	position: absolute;
+	top:50px;
+	left:60px;
+	color:maroon;
+	backdrop-filter:contrast(0.8) brightness(110%);
+}
+h1 {
+	display: block;
+	text-align: center;
+	font-weight: 300;
+	font-family:cursive;
+	font-size: 400%;
+	border-bottom: 2.5px white solid;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	backdrop-filter:contrast(0.8);
+	margin-top:0px;
+	padding: 2px; 
+}
+
+.welcome {
+	display: block;
+	font-size: 200%;
+	border: 1px white solid;
+	border-radius: 20px;
+	text-align: center;
+	padding: 10px;
+	width: 200px;
+}
+
+.welcome:hover {
+	background-color: #364fe0;
+	backdrop-filter:contrast(0.8);
+    opacity: 0.8;
+}
+
+#bg{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	display: block;
+	height:95%;
+	width: 98%;
+	border:1px white solid;	
+	background-image: url("pexels-brett-sayles-992734.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-origin: center;
+	border-radius: 20px;
+}
+a {
+	text-decoration: none;
+	color: maroon;
+}

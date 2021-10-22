@@ -1,3 +1,4 @@
+
 body {
 background-image: url("pexels-hasan-albari-1229861.jpg");
 background-repeat: no-repeat;
@@ -6,11 +7,15 @@ background-size: cover;
 color:white;
 }
 
+header{
+	font-size: 80%;
+}
 ul#menu li {
 display:inline;
 padding-left: 50px;
 }
 a {
+text-decoration: none;
 color: hsla(40,5%,89%,0.9);
 }
 marquee{
@@ -30,6 +35,28 @@ background-color: hsla(57,100%,91%,0.3)
 h1{
 color:hsla(52,100%,50%,0.7);
 }
+h2{
+	margin-left: 30px;
+}
 p {
 color: white;
+}
+#name {
+	font-family: cursive;
+}
+#des{
+	font-size: 100%;
+	display: block;
+	width: 75%;
+	height: 250px;
+	text-align: justify;
+	vertical-align: center;
+	margin-left: 30px;
+}
+img{
+	margin-right:15px;
+}
+table{
+	font-size: 90%;
+	border-color:white;
 }
