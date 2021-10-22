@@ -2,7 +2,7 @@ body {
 background-image: url("pexels-hasan-albari-1229861.jpg");
 background-repeat: no-repeat;
 background-color: #cccccc;
-background-size: contain;
+background-size: cover;
 color:white;
 }
 
