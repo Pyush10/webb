@@ -62,3 +62,11 @@ table{
 	border-color:white;
 	margin-left: 30px;
 }
+@media screen and (max-width: 512px) {
+	body{
+	background-color: rgb(41, 51, 44);
+	}
+	img{
+	align:center;
+	}
+}
