@@ -64,8 +64,8 @@ table{
 }
 @media screen and (max-width: 512px) {
 	body{
+	background-img: none;	
 	background-color: rgb(149, 158, 152);
-	background-img: none;
 	}
 	img{
 	margin: 0;
