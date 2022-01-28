@@ -65,8 +65,10 @@ table{
 @media screen and (max-width: 512px) {
 	body{
 	background-color: rgb(41, 51, 44);
+	background-img: none;
 	}
 	img{
-	align:center;
+	margin-left:auto;
+	margin-right:auto;
 	}
 }
